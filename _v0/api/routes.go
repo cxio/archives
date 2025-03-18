@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cxio/archives/logs"
-	"github.com/cxio/archives/storage"
+	"github.com/cxio/archives/_v0/logs"
+	"github.com/cxio/archives/_v0/storage"
 )
 
 const (

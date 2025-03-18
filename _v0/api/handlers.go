@@ -10,10 +10,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cxio/archives/base"
-	"github.com/cxio/archives/logs"
-	"github.com/cxio/archives/storage"
-	"github.com/cxio/archives/utils"
+	"github.com/cxio/archives/_v0/base"
+	"github.com/cxio/archives/_v0/logs"
+	"github.com/cxio/archives/_v0/storage"
+	"github.com/cxio/archives/_v0/utils"
 )
 
 var _T = base.GetText

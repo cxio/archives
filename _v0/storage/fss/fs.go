@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cxio/archives/logs"
-	"github.com/cxio/archives/storage"
+	"github.com/cxio/archives/_v0/logs"
+	"github.com/cxio/archives/_v0/storage"
 )
 
 // FileSystem 提供文件系统操作

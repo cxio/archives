@@ -6,7 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/cxio/archives/logs"
+	"github.com/cxio/archives/_v0/logs"
 )
 
 // HashSHA3 计算数据的SHA3-256哈希值并返回十六进制字符串

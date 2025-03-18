@@ -11,8 +11,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/cxio/archives/logs"
-	"github.com/cxio/archives/storage"
+	"github.com/cxio/archives/_v0/logs"
+	"github.com/cxio/archives/_v0/storage"
 )
 
 // DocumentMeta 文档元信息
