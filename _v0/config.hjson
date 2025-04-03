@@ -1,11 +1,11 @@
 {
-    "serve_port": 8080,             // 服务端口
-    "storage_root_path": "./data",  // 数据存档根目录
-    "language": "en",               // 用户UI语言，格式：zh, zh-CN
-    "log_level": "info"             // 日志级别，支持：debug, info, warn, error
-    "log_root_path": "./_logs",     // 日志存储根路径
-    "find_max_years": 10,           // 无年份指定时，回溯查找的年数
-    "head_max_years": 100,          // 探查回溯的最大年数
-    "read_timeout": 0,              // 读取超时时间，单位：秒，用户可根据自身存储环境调整
-    "write_timeout": 0,             // 写入超时时间，单位：秒，同上。如果希望关闭超时检查，设置为-1
+    "serve_port": 8080,         // 服务端口
+    "storage_root": "./data",   // 数据存档根目录
+    "language": "en",           // 用户UI语言，格式：zh, zh-CN
+    "log_level": "info",        // 日志级别，支持：debug, info, warn, error
+    "log_root": "./_logs",      // 日志存储根路径
+    "find_max_years": 10,       // 无年份指定时，回溯查找的年数
+    "head_max_years": 100,      // 探查回溯的最大年数
+    "read_timeout": 0,          // 读取超时时间，单位：秒，用户可根据自身存储环境调整
+    "write_timeout": 0,         // 写入超时时间，单位：秒，同上。如果希望关闭超时检查，设置为-1
 }
