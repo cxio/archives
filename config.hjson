@@ -1,5 +1,5 @@
 {
-    remote_port: 18899,     // 远端服务端口（如Blockqs）
+    depot_port: 17799,      // 驿站服务端口（Depots）
     data_root: "./_data",   // 存档数据根目录
     log_level: "info"       // 日志级别，支持：debug, info, warn, error
     log_root: "./_logs",    // 日志存储根路径
